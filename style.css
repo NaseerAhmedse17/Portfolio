@@ -1,0 +1,87 @@
+.collapse, .navbar-collapse{
+padding-left: 80px !important;
+}
+.form-inline, .my-2, .my-lg-0{
+margin-right: 50px !important;
+}
+.form-control, .mr-sm-2{
+width: 350px !important;
+}
+@media only screen and (max-width: 1300px) {
+.form-inline, .my-2, .my-lg-0{
+margin-right: 0px !important;
+margin-left: 20px;
+}
+.form-control, .mr-sm-2{
+width: 200px !important;
+}
+}
+.mainbox{
+	border-style: groove;
+}
+.myimage{
+	width: 1515px;
+	height: 390px;
+}
+@media only screen and (max-width: 1200px) {
+.myimage{
+	flex-wrap: wrap;
+	width: 1130px;
+	height: 350px;
+}
+}
+@media only screen and (max-width: 1000px) {
+.myimage{
+	flex-wrap: wrap;
+	width: 850px;
+	height: 350px;
+}
+}
+@media only screen and (max-width: 600px) {
+.myimage{
+	flex-wrap: wrap;
+	width: 495px;
+	height: 350px;
+}
+}
+.professional{
+	color:rgb(178,54,74);
+	margin-left: 60px;
+	font-size: 30px;
+	font-family: Gill Sans Extrabold, sans-serif;
+}
+.nav, .flex-column{
+	margin-left: 60px;
+}
+ #nav-item>.btn,  .btn-primary{
+	width: 200px;
+	border-style: ridge !important;
+	border-width:10px !important;
+	background-color:rgb(178,54,74) !important;
+	border-color: white !important;
+	
+}
+.line{
+	float: left;
+	border-left: 1px solid black;
+    height: 510px;
+    margin-left: 90px;
+}
+.display-1{
+	color:rgb(178,54,74);
+	font-size: 39px !important;
+	font-family: Gill Sans Extrabold, sans-serif;
+}
+.lead{
+	font-size: 25px !important;
+}
+.thead-dark{
+	background-color:rgb(178,54,74) !important; 
+}
+.col{
+	background-color:rgb(178,54,74) !important;
+}
+.page-footer, .font-small{
+	background-color: rgb(178,54,74) !important;
+	color: white !important;
+}
